@@ -1,0 +1,68 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding-top: 31px ;
+    padding-bottom: 31px;
+
+    
+    
+}
+
+
+.Header.active{
+    background-color: #141D2F;
+
+}
+
+.toggle.active p{
+    color: #F2F2F2;
+}
+
+
+.Header h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: #222731;
+    padding-left: 24px;
+
+}
+
+.Header.active h1{
+    color: white;
+}
+
+
+
+.toggle{
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle p{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2.5px;
+    color:#4B6A9B;
+    padding-right: 10px;
+}
+
+.toggle img{
+    width: 20px;
+    height: 20px;
+    padding-right: 24px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .Header {
+      padding-top: 140px;
+      width: 573px;
+      
+    }
+
+  }
