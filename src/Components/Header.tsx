@@ -11,7 +11,7 @@ export default function Header(props:{
   return (
     <header className={!toggle? 'Header' : 'Header active'}>
 
-    <h1> Devfinder </h1>
+    <a href="/"><h1> Devfinder </h1></a>
     {!toggle ?
       <div className='toggle'
       onClick={toggleChange}>

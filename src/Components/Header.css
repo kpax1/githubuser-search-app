@@ -9,6 +9,10 @@
     
 }
 
+.Header a{
+    text-decoration: none;
+}
+
 
 .Header.active{
     background-color: #141D2F;
