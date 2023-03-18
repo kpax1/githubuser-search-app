@@ -159,13 +159,24 @@
 }
 .location{
     padding-left: 3px;
+
 }
 
 .location.active p{
     color:white;
+
 }
 .bottommain p{
     margin-left: 20px;
+}
+
+.bottommain .twitter{
+    opacity: 0.5;
+
+}
+
+.blue p{
+    color: #0079FF;
 }
 
 
@@ -201,6 +212,24 @@
 
     .r{
         margin-right: 45px;
+    }
+
+    .nameandjoined img {
+        width: 117px;
+        height: 117px;
+    }
+
+    .nameandjoined{
+        margin-top: 20px;
+    }
+
+    .namcomp{
+        margin-top: 15px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+
     }
   }
 
